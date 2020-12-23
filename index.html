@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our website lets you check your CPS (clicks per second). Start the timer, click and check the results." />
+    <title>CPS mafia | Online clicks per second tester</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <h1 class="logo">CPS mafia</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Test</a></li>
+            <li><a href="instructions.html">Instructions</a></li>
+            
+        </ul>
+    </nav>
+    <div class="cps-container">
+        <h1 class="test-heading">CPS test</h1>
+        <div class="cps-time-clicks">
+            <div class="timer">
+                <span class="timer-text">Timer</span>
+                <h3 id="timer">10</h3>
+            </div>
+            <div class="timer">
+                <span class="clicks-text">Clicks</span>
+                <h3 id="clicks">0</h3>
+            </div>
+        </div>
+        <button class="start-timer" onclick="cpsTest()">Start timer</button>
+        <button class="click-place" id="clicker" onclick="clickAdder()" >Click here</button>
+    </div>
+    <div class="cps-container" id="one-sec-cps-container">
+        <h1 class="test-heading">1 second CPS test</h1>
+        <div class="cps-time-clicks">
+            
+            <div class="timer">
+                <span class="clicks-text">CPS</span>
+                <h3 id="one-sec-clicks">0</h3>
+            </div>
+        </div>
+        <button class="start-timer" onclick="cpsTestOne()">Start timer</button>
+        <button class="click-place" id="clicker" onclick="clickAdderOne()" >Click here</button>
+    </div>
+  
+</body>
+</html>
+<script src="app.js"></script>
+<script src="onesec.js"></script>

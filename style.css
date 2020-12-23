@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(90deg, #080808, #181818);
+}
+nav{
+    background: linear-gradient(90deg, 	#383838, #484848);
+    height: 60px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.nav-links{
+    width: 50%;
+    justify-content: space-around;
+    display: flex;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+}
+.nav-links li a:hover{
+    border-bottom: 1px solid #fff;
+}
+.logo{
+    letter-spacing: 3px;
+    color: #fff;
+    font-size: 24px;
+}
+.test-heading{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#one-sec-cps-container{
+    padding-bottom: 200px;
+    margin-top: 120px;
+}
+.cps-container{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px
+}
+.timer{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    border: 2px solid #fff;
+    width: 300px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.cps-time-clicks{
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.click-place{
+    width: 60%;
+    margin-left: 20%;
+    height: 200px;
+    margin-top: 40px;
+    border: none;
+    background-color: #303030;
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+}
+.start-timer{
+    width: 60%;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    background-color: #6600CC;
+    margin-left: 20%;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+#different{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.instructions-heading{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+.instructions{
+    color: #fff;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    text-align: center;
+}
+.instructions p{
+    font-size: 20px;
+    padding: 5px;
+}
+form{
+    width: 40%;
+    height: 400px;
+    background-color: #484848;
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-top: 200px;
+}
+input{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+    height: 35px;
+    font-size: 20px;
+}
+.login-button{
+    border: none;
+    width: 40%;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 30%;
+    background: linear-gradient(90deg, #fff, #f2f2f2);
+    font-size: 20px;
+}
